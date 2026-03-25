@@ -14,7 +14,7 @@ It also implements a configuration fix to ensure the animation works on Linux sy
 | :--- | :--- | :--- | :--- |
 | `-L` | int | System size (Side Length) | Required |
 | `-d` | int | System Dimension (2 or 3) | Required |
-| `-t` | int | #steps of Montecarlo simulation | Requerido |
+| `-t` | int | #steps of Montecarlo simulation | Required |
 | `-T` | Float | System temperature | Required |
 | `-J` | Float | Ferromagnetic interaction constant | 1.0 |
 | `-p` | int | List of the time steps you want to plot (ex. `-p 0 50 100`) | 0 (None) |
@@ -28,7 +28,7 @@ Every time a simulation finishes, the script automatically generates a plain tex
   1. **Energy ($E$)** of the system at step $t$.
   2. **Magnetization ($M$)** of the system at step $t$.
 
-Tu run the script follow the next instructions
+To run the script, follow these instructions:
 
 1. **Clone the repository**
 ```bash
