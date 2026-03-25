@@ -12,13 +12,13 @@ It also implements a configuration fix to ensure the animation works on Linux sy
 ### Needed Arguments
 | Argument | Type | Description | Default |
 | :--- | :--- | :--- | :--- |
-| `-L` | int | Tamaño del sistema (longitud de un lado de la red) | Requerido |
-| `-d` | int | Dimensión del sistema (2 o 3) | Requerido |
-| `-t` | int | Número total de pasos de Monte Carlo | Requerido |
-| `-T` | Float | Temperatura del sistema | Requerido |
-| `-J` | Float | Constante de acoplamiento ferromagnético | 1.0 |
-| `-p` | int | Lista separada por espacios de los pasos para graficar estados estáticos (ej. `-p 0 50 100`) | 0 (Ninguno) |
-| `-a` | Bool | Usa `True` para mostrar la animación en vivo | False |
+| `-L` | int | System size (Side Length) | Required |
+| `-d` | int | System Dimension (2 or 3) | Required |
+| `-t` | int | #steps of Montecarlo simulation | Requerido |
+| `-T` | Float | System temperature | Required |
+| `-J` | Float | Ferromagnetic interaction constant | 1.0 |
+| `-p` | int | List of the time steps you want to plot (ex. `-p 0 50 100`) | 0 (None) |
+| `-a` | Bool | Use `True` to see the evolution of the system animated | False |
 
 Every time a simulation finishes, the script automatically generates a plain text file in the same folder. This file contains data recorded at each Monte Carlo step.
 
