@@ -45,4 +45,9 @@ For example, for a system at $T=1.5$ with $L=8$ in 3D for a number of $50$ steps
 ```bash
 python isingSW_ver2.py -L 8 -T 1.5 -d 3 -t 50 -a True -J 1
 ```
+If on the other hand you want to plot the following time steps `0 10 25 50` you should run the following comand:
+```bash
+python isingSW_ver2.py -L 8 -T 1.5 -d 3 -t 50 -a True -J 1 -p 0 10 25 50
+```
+ 
 A file named `isingSW-3-8-1.5.txt` will be saved containing the energy $E$ and the magnetization $M$ for all time steps. 
