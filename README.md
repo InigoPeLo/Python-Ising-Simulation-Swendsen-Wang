@@ -81,7 +81,7 @@ To run `isingSW_2.py` , you will need to have the `numba` library installed in a
 ```bash
 pip install numpy numba
 ```
-** Example of use:**
+#### Example of use
 If you want to run a simulation with $L=32$ $t=10000$ $d=3$ and sweep between $T_{min}=2$ and $T_{max}=4$ with $S=10$ you need to run the following command:
 ```bash
 python isingSW_2.py -L 32 -Tmin 2 -Tmax 4 -d 3 -t 10000 -S 10 -J 1
